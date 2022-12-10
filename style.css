@@ -13,22 +13,22 @@ h1 {
     width: 800px;
 }
 
-#burrito, 
-#arugula {
-    height: auto;
-    width: 300px;
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
-.bean-button {
+.bean-button-container,
+.arugula-button-container {
     margin-top: 50px;
-}
-
-.arugula-button {
-    margin-top: 20px;
 }
 
 .bean-button,
 .arugula-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #1f181b;
     background-color: #e8b7c9;
     font-size: 23px;
@@ -37,5 +37,23 @@ h1 {
     border-radius: 8px;
     width: 300px;
     height: 40px;
-    margin-bottom: 20px;
+}
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.burrito-image,
+.arugula-image {
+}
+
+.burrito, 
+.arugula {
+    height: auto;
+    width: 350px;
+}
+
+   
